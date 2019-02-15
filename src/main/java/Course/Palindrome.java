@@ -5,7 +5,21 @@ import java.util.Scanner;
 public class Palindrome {
 
     public static void palindromeVerify() {
-        System.out.println("Enter any word: ");
+        //second example
+        System.out.print("Enter any word: ");
+        Scanner scan = new Scanner(System.in);
+
+        String firsrString = scan.nextLine();
+        String secondString = new StringBuilder(String.valueOf(firsrString)).reverse().toString();
+
+        if (firsrString.equals(secondString)) {
+            System.out.println("YES, it is palindrome");
+        } else {
+            System.out.println("NO, it is not palindrome");
+        }
+
+        //first example
+/*        System.out.print("Enter any word: ");
 
         Scanner scan = new Scanner(System.in);
 
@@ -22,23 +36,6 @@ public class Palindrome {
             System.out.println("NO, it is not palindrome");
         }
 
-        System.out.println("Reversed word is: " + reverse);
+        System.out.println("Reversed word is: " + reverse);*/
     }
-
-/*    public static void palindromeVerifySec() {
-        System.out.println("Enter any word: ");
-
-        Scanner scan = new Scanner(System.in);
-
-        String palindrome = scan.nextLine();
-        String reverse = new StringBuilder(palindrome).reverse().toString();
-
-        if (palindrome.equals(reverse)) {
-            System.out.println("YES, it is palindrome");
-        } else {
-            System.out.println("NO, it is not palindrome");
-        }
-
-        System.out.println("Reversed word is: " + reverse);
-    }*/
 }

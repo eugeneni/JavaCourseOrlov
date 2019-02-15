@@ -57,25 +57,6 @@ public class Numbers {
             System.out.println(res.get(i));
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          /* for (int i = res.size() - 1; i >= 0; i--) {
-            System.out.println(res.get(i));
-        }*/
 }
 
 

@@ -1,13 +1,20 @@
 package Course;
 
+import java.util.Scanner;
+
 public class Split {
 
-    public static void stringSplit(String word) {
+    public static void stringSplit() {
 
-        String[] words = word.split("\\s"); // Разбиение строки на слова с помощью разграничителя (пробел)
-        // Вывод на экран
-        for(String subStr:words) {
-            System.out.println(subStr);
+        System.out.print("Enter any words: ");
+        Scanner scan = new Scanner(System.in);
+        String firstString = scan.nextLine();
+
+        String[] secondString = firstString.split("\\s");
+
+        for (String subStr : secondString) {
+            String newReverseString = new StringBuilder(String.valueOf(subStr)).reverse().toString();
+            System.out.print(newReverseString);
         }
     }
 }

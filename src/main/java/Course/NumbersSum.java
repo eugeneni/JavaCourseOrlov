@@ -2,7 +2,7 @@ package Course;
 
 public class NumbersSum {
 
-    public static void sumDigits(long num) {
+    public static long sumDigits(long num) {
         long sum = 0;
 
         while (num != 0) {
@@ -10,6 +10,6 @@ public class NumbersSum {
             num /= 10;
         }
 
-        System.out.println(sum);
+        return sum;
     }
 }
