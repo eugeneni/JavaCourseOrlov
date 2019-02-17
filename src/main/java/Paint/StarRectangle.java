@@ -3,48 +3,35 @@ package Paint;
 public class StarRectangle {
 
     public static void main(String[] args) {
-        int width = 6;
-
-
-        for (int grid = 1; grid < 4; grid++) {
-
-            StarRectangle.firstString(width);
-
-            System.out.println();
-            System.out.print("*");
-
-            StarRectangle.secondString(width);
-
-            System.out.println();
-        }
-
-        StarRectangle.firstString(width);
+        printFigure(9);
     }
 
+    public static void printFigure(int spaceCount) {
+        int width = 5 + 4 * spaceCount;
+        int height = (spaceCount / 3 + 1) * 4 + 1; //сразу учитываем последнюю строку
+        int step = spaceCount / 3 + 1; //расчет шага
+        int fullRow = step + 1;
 
-    public static void firstString(int width) {
-        int newWidth = 5 + 4 * width;
+        for (int i = 1; i <= height; i++) {
 
-        for (int i = 1; i <= newWidth; i++) {
-            System.out.print("*");
-        }
-    }
+            int fullColumn = spaceCount + 2;
 
-    public static void secondString(int width) {
-        if (width == 3) {
-            for (int j = 1; j <= 4; j++) {
-                System.out.print("   *");
+            for (int j = 1; j <= width; j++) {
+                if (i == 1 || i == fullRow || j == 1 || j == fullColumn) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+                //увеличиваем fullRow только когда дойдем до конца строки
+                if (i == fullRow && j == width) {
+                    fullRow = fullRow + step;
+                }
+
+                if (j == fullColumn) {
+                    fullColumn += spaceCount +1;
+                }
             }
-        } else if (width == 6) {
-            for (int j = 1; j <= 4; j++) {
-                System.out.print("      *");
-               // System.out.println();
-                //System.out.println("      *");
-            }
-        } else if(width == 9) {
-            for (int j = 1; j <= 4; j++) {
-                System.out.print("         *");
-            }
+            System.out.println();
         }
     }
 }

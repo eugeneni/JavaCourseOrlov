@@ -9,7 +9,6 @@ public class NumbersSum {
             sum += num % 10;
             num /= 10;
         }
-
         return sum;
     }
 }
