@@ -1,6 +1,9 @@
 package Course;
 
 public class Recursion {
+    public static void main(String[] args) {
+        System.out.println(countInterview(4));
+    }
 
     public static int countInterview(int countEmployee) {
 

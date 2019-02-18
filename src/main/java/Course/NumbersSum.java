@@ -2,6 +2,10 @@ package Course;
 
 public class NumbersSum {
 
+    public static void main(String[] args) {
+        System.out.println(sumDigits(123));
+    }
+
     public static long sumDigits(long num) {
         long sum = 0;
 

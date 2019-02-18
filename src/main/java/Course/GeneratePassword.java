@@ -1,6 +1,5 @@
 package Course;
 
-
 import java.util.concurrent.ThreadLocalRandom;
 
 public class GeneratePassword {
@@ -52,20 +51,6 @@ public class GeneratePassword {
                 password.append(letter);
             }
         }
-
         return password.toString();
     }
 }
-
-
-
-
-
-
-/*                    if (specExist) {
-                        continue;
-                    } else {
-                        password.append(getRandomChar(NUMBER_ALPHABET));
-                        specExist = true;
-                        break;
-                    }*/

@@ -2,7 +2,7 @@ package Course;
 
 import java.util.Random;
 
-public class Array {
+public class PrintArray {
 
     public static void main(String[] args) {
         randomArray(5);

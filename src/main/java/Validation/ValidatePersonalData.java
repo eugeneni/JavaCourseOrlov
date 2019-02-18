@@ -39,15 +39,3 @@ public class ValidatePersonalData {
         return validateEmail();
     }
 }
-
-
-
-/*        else if (fullName.matches("[а-яА-я]+([ '-][а-яА-я]*")) {
-            for (char matchesRussion : fullName.toCharArray()) {
-                if (Character.UnicodeBlock.of(matchesRussion) == Character.UnicodeBlock.CYRILLIC) {
-                    System.out.println(fullName + " is wrong name, please use English.");
-                    return false;
-                }
-                return true;
-            }
-        } */

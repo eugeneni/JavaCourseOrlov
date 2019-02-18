@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class Palindrome {
 
+    public static void main(String[] args) {
+        palindromeVerify();
+    }
+
     public static void palindromeVerify() {
         //second example
         System.out.print("Enter any word: ");
