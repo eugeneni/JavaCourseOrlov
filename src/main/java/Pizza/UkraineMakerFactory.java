@@ -1,6 +1,6 @@
 package Pizza;
 
-public class UkrainMakerFactory implements PizzaMakerFactory {
+public class UkraineMakerFactory implements PizzaMakerFactory {
 
     @Override
     public AbstractPizzaMaker getPizzaMaker(Button button) {

@@ -14,7 +14,7 @@ public class PizzaAutomat {
     }
 
     public static void main(String[] args) {
-        PizzaAutomat automat = new PizzaAutomat(new UkrainMakerFactory());
+        PizzaAutomat automat = new PizzaAutomat(new UkraineMakerFactory());
         String pizza = automat.getPizza(Button.BUTTON_3);
         System.out.println("Сьели, ням-ням-ням " + pizza);
 
