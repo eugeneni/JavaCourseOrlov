@@ -1,24 +1,25 @@
 package Calculate;
 
-public class OperationFactory {
+class OperationFactory {
 
-    public BinaryOperation getOperationFor(String operator) {
-        if ("*".equals(operator)) {
-            return new Multiplication();
-        } else if ("-".equals(operator)) {
-            return new Subtraction();
-        } else if ("/".equals(operator)) {
-            return new Division();
-        } else if ("+".equals(operator)) {
-            return new Addition();
-        } else if ("^".equals(operator)) {
-            return new Power();
-        }else if ("sqrt".equals(operator)) {
-            return new Root();
-        }else if ("log".equals(operator)) {
-            return new Log();
+    BinaryOperation getOperationFor(String operator) {
+        switch (operator) {
+            case "*":
+                return new Multiplication();
+            case "-":
+                return new Subtraction();
+            case "/":
+                return new Division();
+            case "+":
+                return new Addition();
+            case "^":
+                return new Power();
+            case "sqrt":
+                return new Root();
+            case "log":
+                return new Log();
+            default:
+                return null;
         }
-
-        return null;
     }
 }
