@@ -1,4 +1,4 @@
-package Course;
+package course;
 
 import Validation.ValidatePersonalData;
 

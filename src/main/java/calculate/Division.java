@@ -1,4 +1,4 @@
-package Calculate;
+package calculate;
 
 class Division implements BinaryOperation {
     @Override

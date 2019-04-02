@@ -1,6 +1,6 @@
 package UnitTestsCourse;
 
-import Course.Equation;
+import course.Equation;
 import org.junit.Assert;
 import org.junit.Test;
 

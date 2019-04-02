@@ -1,4 +1,4 @@
-import Course.*;
+import course.*;
 
 public class RunMain {
 

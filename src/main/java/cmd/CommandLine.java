@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class CommandLine {
 
-    private static Pattern SPLITTER = Pattern.compile("\\S");
+    private static Pattern SPLITTER = Pattern.compile("\\s");
     private CommandContext commandContext;
     private CommandFactory commandFactory;
 
