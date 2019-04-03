@@ -1,22 +1,22 @@
-package Pizza;
+package pizza;
 
-public class PolloMaker extends AbstractPizzaMaker {
+public class CarbonaraMaker extends AbstractPizzaMaker {
 
     @Override
     protected String build() {
-        return "PolloMaker";
+        return "Carbonara";
     }
 
     @Override
     protected void fillIngredients() {
-        System.out.println("Добавили: колбаски, моцарела, томатный соус, базилик, сливочный соус");
+        System.out.println("Добавили: бекон, сыр, яица, сливочный соус и чеснок.");
     }
 
     @Override
     protected void bake() {
         System.out.println("Выпекаем ...");
         try {
-            Thread.sleep(25_000);
+            Thread.sleep(20_000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

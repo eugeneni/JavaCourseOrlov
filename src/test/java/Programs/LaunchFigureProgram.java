@@ -1,6 +1,6 @@
 package Programs;
 
-import Figures.*;
+import figures.*;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class LaunchFigureProgram
                 System.out.println("Введите сторону квадрата: ");
                 double sizeA = scan.nextInt();
 
-//                Figures.Square square = new Figures.Square(sizeA);
+//                figures.Square square = new figures.Square(sizeA);
 //                System.out.println("Площадь квадрата : " + square.Area());
 //                System.out.println("Периметр квадрата : " + square.Perimeter());
 

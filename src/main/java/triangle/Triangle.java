@@ -1,4 +1,4 @@
-package GenerateTriangle;
+package triangle;
 
 class Triangle {
     Point a;

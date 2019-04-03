@@ -1,6 +1,6 @@
 //package GuiTest;
 //
-//import Singleton.WebDriverSingleton;
+//import singleton.WebDriverSingleton;
 //import org.junit.Assert;
 //import org.junit.Test;
 //import org.openqa.selenium.By;

@@ -1,6 +1,6 @@
 package course;
 
-import Validation.ValidatePersonalData;
+import validation.ValidatePersonalData;
 
 public class DataBase {
     public static void main(String[] args) {

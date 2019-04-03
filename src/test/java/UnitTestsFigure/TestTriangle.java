@@ -1,6 +1,6 @@
 package UnitTestsFigure;
 
-import Figures.Triangle;
+import figures.Triangle;
 import org.junit.Assert;
 import org.junit.Test;
 

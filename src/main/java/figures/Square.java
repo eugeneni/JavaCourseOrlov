@@ -1,4 +1,4 @@
-package Figures;
+package figures;
 
 public class Square extends AbstractFigure
 {
@@ -20,7 +20,7 @@ public class Square extends AbstractFigure
     @Override
     public String toString()
     {
-        return "Figures.Square{" +
+        return "figures.Square{" +
                 "sizeA=" + sizeA +
                 '}';
     }

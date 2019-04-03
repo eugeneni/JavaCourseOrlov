@@ -1,6 +1,6 @@
 package UnitTestRating;
 
-import Rating.Rating;
+import rating.Rating;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

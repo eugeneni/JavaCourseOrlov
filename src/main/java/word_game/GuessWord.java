@@ -1,4 +1,4 @@
-package WordGame;
+package word_game;
 
 import java.util.Scanner;
 

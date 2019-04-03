@@ -1,4 +1,4 @@
-package GenerateTriangle;
+package triangle;
 
 import java.util.Arrays;
 import java.util.LinkedList;

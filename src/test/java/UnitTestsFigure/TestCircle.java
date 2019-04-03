@@ -1,6 +1,6 @@
 package UnitTestsFigure;
 
-import Figures.Circle;
+import figures.Circle;
 import org.junit.Assert;
 import org.junit.Test;
 

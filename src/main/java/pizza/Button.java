@@ -1,4 +1,4 @@
-package Pizza;
+package pizza;
 
 public enum Button {
     BUTTON_1,

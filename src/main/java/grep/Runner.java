@@ -22,10 +22,5 @@ public class Runner {
 
             if(name.equals("0")){break;}
         }
-
-
-
-
-
     }
 }

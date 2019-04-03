@@ -1,6 +1,6 @@
 package FeatureFileSteps;
 
-import Singleton.WebDriverSingleton;
+import singleton.WebDriverSingleton;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;

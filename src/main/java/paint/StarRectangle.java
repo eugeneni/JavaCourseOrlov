@@ -1,4 +1,4 @@
-package Paint;
+package paint;
 
 public class StarRectangle {
 

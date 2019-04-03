@@ -1,4 +1,4 @@
-package Rating;
+package rating;
 
 public class Rating
 {

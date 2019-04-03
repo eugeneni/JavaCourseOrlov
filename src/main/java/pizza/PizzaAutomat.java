@@ -1,4 +1,4 @@
-package pizza;
+package Pizza;
 
 public class PizzaAutomat {
 

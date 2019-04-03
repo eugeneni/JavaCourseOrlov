@@ -1,6 +1,6 @@
 package UnitTestsFigure;
 
-import Figures.Square;
+import figures.Square;
 import org.junit.Assert;
 import org.junit.Test;
 
