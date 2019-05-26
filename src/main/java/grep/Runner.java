@@ -9,18 +9,20 @@ public class Runner {
         FileName fileName = new FileName();
         ReadFile readFile = new ReadFile();
 
-        while (true){
+        while (true) {
             String name = fileName.getFileName();
 
             try {
                 readFile.openFile(name);
-            } catch (FileNotFoundException ex){
+            } catch (FileNotFoundException ex) {
                 System.err.println("File not found: " + ex);
             } catch (Exception e) {
                 e.printStackTrace();
             }
 
-            if(name.equals("0")){break;}
+            if (name.equals("0")) {
+                break;
+            }
         }
     }
 }

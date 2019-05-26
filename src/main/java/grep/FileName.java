@@ -6,7 +6,7 @@ class FileName {
 
     private Scanner scanner = new Scanner(System.in);
 
-    String getFileName()  {
+    String getFileName() {
         System.out.println("Pls enter file name: ");
         String fileName = scanner.nextLine();
 
